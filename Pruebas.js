@@ -72,5 +72,5 @@ function tablaDeMultiplicar(limite){
     }
 }
 console.time("tablaDeMultiplicar");
-tablaDeMultiplicar(15);
+tablaDeMultiplicar(50);
 console.timeEnd("tablaDeMultiplicar");
