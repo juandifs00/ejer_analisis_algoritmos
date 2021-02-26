@@ -71,6 +71,20 @@ function tablaDeMultiplicar(limite){
         console.log();
     }
 }
-console.time("tablaDeMultiplicar");
-tablaDeMultiplicar(15);
-console.timeEnd("tablaDeMultiplicar");
+//console.time("tablaDeMultiplicar");
+//tablaDeMultiplicar(15);
+//console.timeEnd("tablaDeMultiplicar");
+
+/**
+ * Funcion factorial de un numero de manera recursiva
+ * @param {*} n 
+ */
+function factorialRecursivo (n) { 
+	if (n == 0){ 
+		return 1; 
+	}
+	return n * factorialRecursivo (n-1); 
+}
+console.time("Factorial Recursivo");
+console.log(factorialRecursivo(10));
+console.timeEnd("Factorial Recursivo");
